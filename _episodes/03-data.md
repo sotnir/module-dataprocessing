@@ -47,9 +47,9 @@ Although not essential it is helpful to have an understanding of:
 Brain imaging covers a diverse set of data acquisition instruments including
 MRI scanners, physiological measurements, cognitive tests, and clinical
 interviews. Further, different analysis software often have their own data
-formats. Therefore, to ensure information is preserved for reproducible
-data processing, it is important to understand the different types of information
-stored in each format.
+formats. Therefore, to ensure information is preserved for reproducible 
+data processing, it is important to understand different data formats in neuroimaging 
+and what information is stored in each format.
 
 #### Data
 This section familiarizes you with the different types of data generated or used
@@ -61,12 +61,12 @@ neuropsychological and clinical assessments, and physiological measurements.
 Typically such data are stored in CSV, TSV, or [JSON](json.org) files. But some
 types of measurements such as eye-tracking, respiration, GSR, may be stored in
 proprietary file formats. In many cases data are also stored in Excel
-spreadsheets or databases (e.g., RedCap, COINS, XNAT, LORIS, etc.,.).
+spreadsheets or databases (e.g., RedCap, COINS, XNAT, LORIS, etc.).
 
-It is important to consider what information is stored in each file or database
-before converting or extracting the information. This includes understanding the
+Before converting or extracting the information, it is important to consider what information 
+is stored in each file or database. This includes understanding the
 variables that are represented, their datatypes (string, integer, float, double),
- their range  (e.g., age > 0) or set membership (e.g., diagnosis part of DSM-V
+ their range  (e.g., age > 0), their set membership (e.g., diagnosis part of DSM-V
 or ICD-10), and their units (e.g., years, mm).
 
 2. **MRI data:** Most scanners output data in [DICOM](http://dicom.nema.org/standard.html)
